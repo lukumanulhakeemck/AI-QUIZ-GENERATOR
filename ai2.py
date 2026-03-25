@@ -8,7 +8,7 @@ import re
 st.set_page_config(page_title="AI Quiz Master", layout="wide")
 
 # Configure Gemini with your API key
-genai.configure(api_key="AIzaSyAQdNVTYr40vm140Vv-bfsrHZ-h_kuOlN4") 
+genai.configure(api_key="[Import your API Key her]") 
 
 def extract_text_from_pdf(uploaded_file):
     """extract text from uploaded PDF file"""
